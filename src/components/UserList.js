@@ -49,7 +49,7 @@ function UserList() {
                   onClick={() => setActiveUser(user, index)}
                 >
                   {user.data.fName}
-                </li>
+                </li> 
               );
             })}
         </ul>
